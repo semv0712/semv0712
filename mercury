@@ -1,0 +1,142 @@
+-- made by mercury
+
+local ScreenGui = Instance.new("ScreenGui")
+local defencemain = Instance.new("Frame")
+local defencetitle = Instance.new("TextLabel")
+local antifeV1 = Instance.new("TextButton")
+local titlemain = Instance.new("Frame")
+local triowaretitle = Instance.new("TextLabel")
+local legendaryadminmain = Instance.new("Frame")
+local legendaryadmintitle = Instance.new("TextLabel")
+local execute = Instance.new("TextButton")
+local mercurysrescalemain = Instance.new("Frame")
+local mercurysrescaletitle = Instance.new("TextLabel")
+local execute_2 = Instance.new("TextButton")
+
+
+
+ScreenGui.Parent = game.CoreGui
+
+defencemain.Name = "defence main"
+defencemain.Parent = ScreenGui
+defencemain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+defencemain.Position = UDim2.new(0.0545243621, 0, 0.17964074, 0)
+defencemain.Size = UDim2.new(0, 178, 0, 129)
+defencemain.Active = true
+defencemain.Draggable = true
+
+defencetitle.Name = "defence title"
+defencetitle.Parent = defencemain
+defencetitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+defencetitle.Size = UDim2.new(0, 178, 0, 38)
+defencetitle.Font = Enum.Font.SourceSans
+defencetitle.Text = "defence"
+defencetitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+defencetitle.TextScaled = true
+defencetitle.TextSize = 14.000
+defencetitle.TextWrapped = true
+
+antifeV1.Name = "antife V1"
+antifeV1.Parent = defencemain
+antifeV1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+antifeV1.BorderColor3 = Color3.fromRGB(252, 0, 6)
+antifeV1.Position = UDim2.new(0, 0, 0.612403095, 0)
+antifeV1.Size = UDim2.new(0, 178, 0, 50)
+antifeV1.Font = Enum.Font.SourceSans
+antifeV1.Text = "antife V1"
+antifeV1.TextColor3 = Color3.fromRGB(255, 255, 255)
+antifeV1.TextScaled = true
+antifeV1.TextSize = 14.000
+antifeV1.TextWrapped = true
+antifeV1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pQC9HUMp", true))()
+end)
+
+titlemain.Name = "title main"
+titlemain.Parent = ScreenGui
+titlemain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+titlemain.Position = UDim2.new(0.358468682, 0, 0, 0)
+titlemain.Size = UDim2.new(0, 243, 0, 44)
+
+triowaretitle.Name = "trioware title"
+triowaretitle.Parent = titlemain
+triowaretitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+triowaretitle.Position = UDim2.new(0.0864197537, 0, -0.13636364, 0)
+triowaretitle.Size = UDim2.new(0, 200, 0, 50)
+triowaretitle.Font = Enum.Font.SourceSans
+triowaretitle.Text = "welcome to trioware."
+triowaretitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+triowaretitle.TextScaled = true
+triowaretitle.TextSize = 14.000
+triowaretitle.TextWrapped = true
+
+legendaryadminmain.Name = "legendary admin main"
+legendaryadminmain.Parent = ScreenGui
+legendaryadminmain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+legendaryadminmain.Position = UDim2.new(0.754060328, 0, 0.17964074, 0)
+legendaryadminmain.Size = UDim2.new(0, 178, 0, 128)
+legendaryadminmain.Active = true
+legendaryadminmain. Draggable = true
+
+legendaryadmintitle.Name = "legendary admin title"
+legendaryadmintitle.Parent = legendaryadminmain
+legendaryadmintitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+legendaryadmintitle.Size = UDim2.new(0, 178, 0, 50)
+legendaryadmintitle.Font = Enum.Font.SourceSans
+legendaryadmintitle.Text = "legendary admin"
+legendaryadmintitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+legendaryadmintitle.TextScaled = true
+legendaryadmintitle.TextSize = 14.000
+legendaryadmintitle.TextWrapped = true
+
+execute.Name = "execute"
+execute.Parent = legendaryadminmain
+execute.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+execute.BorderColor3 = Color3.fromRGB(252, 0, 6)
+execute.Position = UDim2.new(0, 0, 0.609375, 0)
+execute.Size = UDim2.new(0, 178, 0, 50)
+execute.Font = Enum.Font.SourceSans
+execute.Text = "execute"
+execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute.TextScaled = true
+execute.TextSize = 14.000
+execute.TextWrapped = true
+execute.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/bp4Mc3Fi", true))()
+end)
+
+mercurysrescalemain.Name = "mercury's rescale main"
+mercurysrescalemain.Parent = ScreenGui
+mercurysrescalemain.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mercurysrescalemain.Position = UDim2.new(0.39281705, 0, 0.794910192, 0)
+mercurysrescalemain.Size = UDim2.new(0, 179, 0, 107)
+mercurysrescalemain.Active = true
+mercurysrescalemain.Draggable = true
+
+mercurysrescaletitle.Name = "mercury's rescale title"
+mercurysrescaletitle.Parent = mercurysrescalemain
+mercurysrescaletitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mercurysrescaletitle.BorderColor3 = Color3.fromRGB(36, 53, 61)
+mercurysrescaletitle.Size = UDim2.new(0, 179, 0, 50)
+mercurysrescaletitle.Font = Enum.Font.SourceSans
+mercurysrescaletitle.Text = "mercury's rescale"
+mercurysrescaletitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+mercurysrescaletitle.TextScaled = true
+mercurysrescaletitle.TextSize = 14.000
+mercurysrescaletitle.TextWrapped = true
+
+execute_2.Name = "execute"
+execute_2.Parent = mercurysrescalemain
+execute_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+execute_2.BorderColor3 = Color3.fromRGB(252, 6, 7)
+execute_2.Position = UDim2.new(0, 0, 0.551401854, 0)
+execute_2.Size = UDim2.new(0, 179, 0, 48)
+execute_2.Font = Enum.Font.SourceSans
+execute_2.Text = "execute"
+execute_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute_2.TextScaled = true
+execute_2.TextSize = 14.000
+execute_2.TextWrapped = true
+execute_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/gYNnraTr", true))()
+end)
